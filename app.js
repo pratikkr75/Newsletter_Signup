@@ -7,7 +7,7 @@ const mongoose = require("mongoose");
 
 const app = express();
 
-const url ="mongodb+srv://prateek33:3567prateek@cluster0.shxxej9.mongodb.net/?retryWrites=true&w=majority";
+const url ="paste your mongodb database url";
 
 mongoose.connect(url, {
     
